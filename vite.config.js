@@ -6,4 +6,7 @@ export default defineConfig({
   plugins: [react()],
   // Asegúrate de que 'nini-tamagotchi-v2' sea exactamente el nombre de tu repositorio
   base: './', // <-- ¡CORREGIR ESTA LÍNEA!
+  build: { // AÑADIR ESTA SECCIÓN
+    target: 'es2020' // Apuntar a un estándar de JS más compatible
+  }
 })
